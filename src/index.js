@@ -12,16 +12,6 @@ class OlderCoaster extends React.Component{
   }
 }
 
-<div class="oldercoaster">
-  <p>Two grannies having the time of their life!</p>
-  <p>Passengers:</p>
-  <ul>
-    <li>Agnes</li>
-    <li>Muriel</li>
-  </ul>
-</div>
-
-
 
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
