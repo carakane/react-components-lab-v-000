@@ -29,7 +29,7 @@ class ButcherShop extends React.Component{
         <li>product</li>
               }
     ))
-  }
+  },
 }
 
 
