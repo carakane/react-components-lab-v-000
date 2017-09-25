@@ -2,6 +2,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+class OlderCoaster extends React.Component{
+  render() {
+    return React.createElement('div', {className: 'oldercoaster'},
+      React.createElement('p', {}, 'Two grannies having the time of their life!'),
+      React.createElement('ul', {},
+        [React.createElement('li', {}, 'Agnes'),
+        React.createElement('li', {}, 'Muriel')]))
+  }
+}
+
+<div class="oldercoaster">
+  <p>Two grannies having the time of their life!</p>
+  <p>Passengers:</p>
+  <ul>
+    <li>Agnes</li>
+    <li>Muriel</li>
+  </ul>
+</div>
+
+
+
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
   'Short ribs',
