@@ -10,7 +10,7 @@ class OlderCoaster extends React.Component{
         [React.createElement('li', {}, 'Agnes'),
         React.createElement('li', {}, 'Muriel')]))
   }
-}
+};
 
 class InFrontOfYou extends React.Component{
   render(){
@@ -18,7 +18,7 @@ class InFrontOfYou extends React.Component{
       React.createElement('p', {}, 'You shouldn\'t look too far.'),
       React.createElement('p', {}, 'Sometimes, the solution is right in front of you.'))
   }
-}
+};
 
 class ButcherShop extends React.Component{
   render(){
@@ -30,7 +30,7 @@ class ButcherShop extends React.Component{
       }
     )))
   }
-}
+};
 
 
 const BUTCHER_PRODUCTS = [
