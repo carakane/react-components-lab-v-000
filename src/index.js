@@ -41,9 +41,6 @@ const BUTCHER_PRODUCTS = [
 ];
 
 // Define these exported classes
-export class OlderCoaster extends React.Component {};
-export class InFrontOfYou extends React.Component {};
-export class ButcherShop extends React.Component {};
 
 ReactDOM.render(
   React.createElement('div', {}, [
