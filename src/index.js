@@ -16,9 +16,21 @@ class InFrontOfYou extends React.Component{
   render(){
     return React.createElement('div', {},
       React.createElement('p', {}, 'You shouldn\'t look too far.'),
-      React.createElement('p', {}, 'Sometimes, the solution is right in front of you.'))  
+      React.createElement('p', {}, 'Sometimes, the solution is right in front of you.'))
   }
 }
+
+class ButcherShop extends React.Component{
+  render(){
+    return React.createElement('div', {className: 'butcher-shop',
+      React.createElement('p', {}, 'Hello! We have the following products for sale today:')
+    React.createElement('ul', {}, [
+      React.Children.map(BUTCHER_PRODUCTS, function[(product)]
+        <li>product</li>)
+    ])})
+  }
+}
+
 
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
