@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-class OlderCoaster extends React.Component{
+export class OlderCoaster extends React.Component{
   render() {
     return React.createElement('div', {className: 'oldercoaster'},
       React.createElement('p', {}, 'Two grannies having the time of their life!'),
@@ -12,7 +12,7 @@ class OlderCoaster extends React.Component{
   }
 };
 
-class InFrontOfYou extends React.Component{
+export class InFrontOfYou extends React.Component{
   render(){
     return React.createElement('div', {},
       React.createElement('p', {}, 'You shouldn\'t look too far.'),
@@ -20,7 +20,7 @@ class InFrontOfYou extends React.Component{
   }
 };
 
-class ButcherShop extends React.Component{
+export class ButcherShop extends React.Component{
   render(){
     return React.createElement('div', {className: 'butcher-shop'},
       React.createElement('p', {}, 'Hello! We have the following products for sale today:'),
